@@ -2,7 +2,7 @@
 $password="password";
 //password to login
 $csvdb="MyVault.csv";
-//csv database filename(must exist)
+//csv database filename(must exist and should i have a different filename)
 $configured=true;
 //set this to true
 $showdonate=true;
