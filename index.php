@@ -102,7 +102,7 @@ copy(".htmyvault",$csvdb);
             if(strlen($_POST['s'.$i].$_GET['s'.$i])>0){
                 $fields=PHP_EOL;
                 for($j=0;$j<count($csvhead);$j++)
-                    $fields.=$_GET['ta'.$i."_".$j].$_POST['ta'.$i."_".$j].",";
+                    $fields.=$_GET['f'.$i."_".$j].$_POST['f'.$i."_".$j].",";
                fwrite($fvault,$fields,strlen($fields)-1);
                 $updated++;
             } else {
